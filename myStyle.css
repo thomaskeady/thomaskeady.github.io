@@ -4,5 +4,9 @@ h1 {
 
 body {
 	vertical-align:center;
+#	background-image: url('smiley.gif');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
 }
 
