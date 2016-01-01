@@ -17,13 +17,12 @@ p {
 }
 
 div.footer {
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: gray;
-#	position: fixed;
-#	right: 0;
-#	bottom: 0;
+	position: fixed;
+	bottom: 0;
 	height: 4em;
-#	width: 100%;
 }
 
 
