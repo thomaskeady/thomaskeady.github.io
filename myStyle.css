@@ -17,6 +17,7 @@ p {
 }
 
 div.footer {
+	display: table;
 	background-color: gray;
 	position: fixed;
 	right: 0;
