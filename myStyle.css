@@ -24,3 +24,16 @@ div.footer {
 	height: 8em;
 	width: 100%;
 }
+
+div.filler {
+	display: table-cell;
+	
+}
+
+div.content {
+	display: table-cell;
+	width: 20em;
+	
+	
+}
+
