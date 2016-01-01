@@ -22,25 +22,19 @@ div.footer {
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	height: 8em;
-	width: 100%;
-}
-
-table {
+	height: 4em;
 	width: 100%;
 }
 
 td.filler {
-	border: 1px solid black;
 	display: table-cell;
 	overflow: hidden;
 }
 
 td.content {
-	border: 1px solid black;
 	display: table-cell;
 	overflow: hidden;
-	width: 20em;
+	width: 10em;
 	
 	
 }
