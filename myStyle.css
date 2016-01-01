@@ -19,9 +19,9 @@ p {
 div.footer {
 	margin: auto;
 	background-color: gray;
-	position: fixed;
+#	position: fixed;
 #	right: 0;
-	bottom: 0;
+#	bottom: 0;
 	height: 4em;
 #	width: 100%;
 }
