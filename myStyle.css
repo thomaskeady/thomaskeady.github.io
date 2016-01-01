@@ -27,11 +27,12 @@ div.footer {
 
 div.filler {
 	display: table-cell;
-	
+	overflow: hidden;
 }
 
 div.content {
 	display: table-cell;
+	overflow: hidden;
 	width: 20em;
 	
 	
