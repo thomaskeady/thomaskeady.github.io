@@ -17,7 +17,6 @@ p {
 }
 
 div.footer {
-	display: table;
 	background-color: gray;
 	position: fixed;
 	right: 0;
@@ -27,12 +26,10 @@ div.footer {
 }
 
 td.filler {
-	display: table-cell;
 	overflow: hidden;
 }
 
 td.content {
-	display: table-cell;
 	overflow: hidden;
 	width: 10em;
 	
