@@ -26,12 +26,12 @@ div.footer {
 	width: 100%;
 }
 
-table.filler {
+td.filler {
 	display: table-cell;
 	overflow: hidden;
 }
 
-table.content {
+td.content {
 	display: table-cell;
 	overflow: hidden;
 	width: 20em;
