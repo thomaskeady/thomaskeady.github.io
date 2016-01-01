@@ -16,7 +16,9 @@ body {
 	font-size: 7em;
 }
 
-#not-dork {}
+#not-dork {
+	text-align: center;
+}
 
 div.footer {
 	margin-left: auto;
