@@ -4,4 +4,16 @@
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nP1tFvRfnFs?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
 
+$(function(){
+  $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+
+  // If you want to keep full screen on window resize
+  $(window).resize(function(){
+    $('#video').css({ width: $(window).innerWidth() + 'px', height: $(window).innerHeight() + 'px' });
+  });
+});
+
+<!-- The credit for this solution belongs to mdesdev over at stackoverflow -->
+<!-- http://stackoverflow.com/questions/20182409/how-to-make-a-youtube-embedded-video-a-full-page-width-one -->
+
 </html>
