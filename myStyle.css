@@ -40,6 +40,9 @@ div.footer {
 }
 
 div.footer-background {
+	height: 100%;
+	width: 100%;
+	
 	background-color: gray;
 	
 	opacity: 0.6;
