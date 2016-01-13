@@ -51,14 +51,16 @@ div.footer-background {
     	
 }
 
-linkers {
-	opacity: 1;
-    	filter: alpha(opacity=100); 
-    	z-index: 1;
-}
 
 linkers:hover {
 	opacity: 0.5;
     	filter: alpha(opacity=50); 
     	z-index: 1;
 }
+
+linkers {
+	opacity: 1;
+    	filter: alpha(opacity=100); 
+    	z-index: 1;
+}
+
