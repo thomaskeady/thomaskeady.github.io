@@ -28,7 +28,8 @@ body {
 }
 
 div.footer {
-	position: fixed;
+	position: relative;
+	overflow: hidden;
 	bottom: -60px;
 	width: 100%;
 	
