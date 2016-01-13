@@ -48,3 +48,10 @@ linkers {
     	filter: alpha(opacity=100); 
 }
 
+#div p img {
+	
+	opacity: 1;
+    	filter: alpha(opacity=100); 
+	
+}
+
