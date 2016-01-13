@@ -58,6 +58,8 @@ div.footer-background {
 	opacity: 1;
     	filter: alpha(opacity=100); 
     	z-index: 1;
+    	
+    	transition: all 0.25s ease;
 }
 
 .linkers:hover {
