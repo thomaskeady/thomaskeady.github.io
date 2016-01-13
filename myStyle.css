@@ -61,5 +61,8 @@ div.footer-background {
 }
 
 .linkers:hover {
-	
+	bottom: 20px;
+	opacity: 1;
+    	filter: alpha(opacity=100); 
+    	z-index: 1;	
 }
