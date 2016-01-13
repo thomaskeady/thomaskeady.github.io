@@ -15,8 +15,10 @@ body {
 	color: white;
 	font-size: 7em;
 	position: fixed;
-	top: 20%;
-	left: 20%;
+	top: 10%;
+	left: 15%;
+	
+	translate: rotate(-10deg);
 }
 
 #not-dork {
