@@ -15,7 +15,7 @@ body {
 	color: white;
 	font-size: 7em;
 	position: fixed;
-	top: 7%;
+	top: 4%;
 	left: 7%;
 	
 	translate: rotate(-10deg);
@@ -36,8 +36,8 @@ div.footer {
 	
 	
   	transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
   	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
 	
 }
 
