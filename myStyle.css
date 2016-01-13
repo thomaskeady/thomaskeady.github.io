@@ -38,6 +38,9 @@ div.footer {
   	-ms-transform: translateY(-50%);
   	-webkit-transform: translateY(-50%);
 	
+	opacity: 0.6;
+    	filter: alpha(opacity=60); 
+	
 }
 
 div.footer-content {
