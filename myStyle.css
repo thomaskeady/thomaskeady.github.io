@@ -23,7 +23,7 @@ body {
 div.footer {
 	background-color: gray;
 #	position: fixed;
-	bottom: 0;
+	
 	height: 4em;
 	width: 100%;
 	
@@ -31,6 +31,8 @@ div.footer {
   	transform: translateY(-50%);
   	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
+	
+	bottom: 0;
 }
 
 div.footer-content {
