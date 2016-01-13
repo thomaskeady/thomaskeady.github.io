@@ -28,7 +28,6 @@ body {
 }
 
 div.footer {
-	background-color: gray;
 	position: fixed;
 	bottom: -60px;
 	width: 100%;
@@ -40,6 +39,11 @@ div.footer {
 	
 	opacity: 0.6;
     	filter: alpha(opacity=60); 
+	
+}
+
+div.footer-background {
+	background-color: gray;
 	
 }
 
