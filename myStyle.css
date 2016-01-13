@@ -30,7 +30,7 @@ body {
 div.footer {
 	position: fixed;
 	
-	bottom: -60px;
+	bottom: 0px;
 	width: 100%;
 	
 	
