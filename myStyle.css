@@ -53,7 +53,7 @@ div.footer-background {
 }
 
 
-linkers {
+.linkers {
 	opacity: 1;
     	filter: alpha(opacity=100); 
     	z-index: 1;
