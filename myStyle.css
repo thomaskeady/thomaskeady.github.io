@@ -11,29 +11,38 @@ body {
 	background-size: cover;
 }
 
-p {
+#dork {
 	color: white;
 	font-size: 7em;
+	position: fixed;
+	top: 4%;
+	left: 7%;
+	
+	translate: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+}
+
+#not-dork {
+	text-align: center;
 }
 
 div.footer {
 	background-color: gray;
 	position: fixed;
-	right: 0;
 	bottom: 0;
-	height: 8em;
+#	height: 4em;
 	width: 100%;
-}
-
-div.filler {
-	display: table-cell;
+	
+	
+  	transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	-webkit-transform: translateY(-50%);
 	
 }
 
-div.content {
-	display: table-cell;
-	width: 20em;
-	
+div.footer-content {
+	position: absolute;
 	
 }
 
