@@ -51,12 +51,12 @@ div.footer-background {
     	
 }
 
-
+/*
 linkers:hover {
 	opacity: 0.5;
     	filter: alpha(opacity=50); 
     	z-index: 1;
-}
+}*/
 
 linkers {
 	opacity: 1;
