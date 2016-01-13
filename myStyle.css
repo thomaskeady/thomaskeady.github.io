@@ -53,12 +53,6 @@ div.footer-background {
 linkers {
 	opacity: 1;
     	filter: alpha(opacity=100); 
+    	z-index: 1;
 }
-/*
-#div p img {
-	
-	opacity: 1;
-    	filter: alpha(opacity=100); 
-	
-}*/
 
