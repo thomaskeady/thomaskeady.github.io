@@ -19,7 +19,7 @@ body {
 	top: 4%;
 	left: 7%;
 	
-	translate: rotate(-10deg);
+	transform: rotate(-10deg);
 	-ms-transform: rotate(-10deg);
 	-webkit-transform: rotate(-10deg);
 }
@@ -75,4 +75,11 @@ div.footer-background {
 	opacity: 1;
     	filter: alpha(opacity=100); 
     	z-index: 1;	
+}
+
+#to_credit {
+	position: absolute;
+	bottom: 7px;
+	left: 7px;
+	z-index: 1;
 }
