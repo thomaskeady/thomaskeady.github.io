@@ -24,6 +24,7 @@
 		
 		/*opacity: 0.6;
     		filter: alpha(opacity=60); */
+    		z-index: -1;
       }
 
       #text-holder {
@@ -75,7 +76,7 @@
       		position: fixed;
 		top: 7px;
 		left: 7px;
-		z-index: 1;
+		z-index: 0;
       }
       
       div.footer {
@@ -101,7 +102,7 @@
 		opacity: 0.6;
 	    	filter: alpha(opacity=60); 
 		
-		z-index: -1;    	
+		z-index: 1;    	
 	}
 	
 	
@@ -112,7 +113,7 @@
 		
 		opacity: 1;
 	    	filter: alpha(opacity=100); 
-	    	z-index: 1;
+	    	z-index: 2;
 	    	
 	    	transition: all 0.25s ease;
 	    	-webkit-transition: all 0.25s ease; 
@@ -124,14 +125,14 @@
 		
 		opacity: 1;
 	    	filter: alpha(opacity=100); 
-	    	z-index: 1;	
+	    	z-index: 2;	
 	}
 	
 	#to_credit {
-		position: absolute;
+		position: fixed;
 		bottom: 7px;
 		left: 7px;
-		z-index: 1;
+		z-index: 2;
 	}
 	      
     </style>
