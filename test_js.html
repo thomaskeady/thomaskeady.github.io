@@ -1,10 +1,22 @@
 <!DOCTYPE HTML>
 
 <head>
-  
+  <!--
   <script type="text/javascript" src="pageviews.js?var=ip"></script>
   
   <script>alert(ip);</script>
+  -->
+  <script type="text/javascript">
+  var userip;
+  </script>
+
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+<script type="text/javascript">
+  //document.write("Your IP is :", userip);
+  alert(userip);
+</script>
+  
   
   <script>
     function trackView() {
