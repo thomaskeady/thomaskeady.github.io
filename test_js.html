@@ -5,14 +5,14 @@
   
   <script>
     function trackView() {
-      
-      alert("trackView");
-    }
-    
-    $.getJSON( 'http://freegeoip.net/json/', function( data )
+      $.getJSON( 'http://freegeoip.net/json/', function( data )
       {
           alert("Your IP is: "+data.ip+", Country Code is: "+data.country_code+", Country Name: "+data.country_name+", Latitude is: "+data.latitude+", Longitude is: "+data.longitude);
       });
+      //alert("trackView");
+    }
+    
+    
     
   </script>
   
