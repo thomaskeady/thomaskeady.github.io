@@ -2,6 +2,8 @@
 
 <head>
   
+  <script type="text/javascript" src="pageviews.js?var=ip"></script>
+  
   <script>
     function trackView() {
       /*
@@ -15,6 +17,7 @@
       httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       httpc.setRequestHeader("Content-Length", params.length); // POST request MUST have a Content-Length header (as per HTTP/1.1)
 */
+      alert("trackView");
     }
   </script>
   
@@ -23,13 +26,13 @@
 </head>
 
 <html>
-  <body onload="trackView()">
+  <!--<body onload="trackView()">-->
     
     
     <h1>:)</h1>
     
     
-  </body>
+  <!--</body>-->
   
   
 </html>
