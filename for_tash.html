@@ -27,7 +27,7 @@
     (function() {
         $.getJSON( 'http://freegeoip.net/json/', function( data )
         {
-            alert(" Hi Phoebe! Your IP is: "+data.ip+", Country Code is: "+data.country_code+", Country Name: "+data.country_name+", Latitude is: "+data.latitude+", Longitude is: "+data.longitude);
+            alert(" Hey Tash! You are located in the "+data.country_name+", at "+data.latitude+" latitude and "+data.longitude+" longitude.");
             
         });
       })();
