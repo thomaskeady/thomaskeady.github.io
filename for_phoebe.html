@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<head>
+  
+  
+  <script>
+    function trackView() {
+      //alert("trackView");
+    }
+    
+    
+    
+  </script>
+  
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
+</head>
+
+<html>
+  <body <!--onload="trackView()" -->>
+    
+    
+    <h1>:)</h1>
+    
+    <script>
+
+    (function() {
+        $.getJSON( 'http://freegeoip.net/json/', function( data )
+        {
+            alert("Your IP is: "+data.ip+", Country Code is: "+data.country_code+", Country Name: "+data.country_name+", Latitude is: "+data.latitude+", Longitude is: "+data.longitude);
+            
+        });
+      })();
+      
+    </script>
+    
+  </body>
+  
+</html>
