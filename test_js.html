@@ -34,9 +34,14 @@
         $.getJSON( 'http://freegeoip.net/json/', function( data )
         {
             //alert("Your IP is: "+data.ip+", Country Code is: "+data.country_code+", Country Name: "+data.country_name+", Latitude is: "+data.latitude+", Longitude is: "+data.longitude);
-            toSend.append("sent", data.ip/*.concat(space, data.country_code, space, data.latitude, space, data.longitude)*/);
+            
+            toSend.set("uip", data.ip);
+            toSend.set("uCountry", data.country);
+            toSend.set("uLat", data.latitude);
+            toSend.set("uLong", data.longitude);
+            
             var xhr = new XMLHttpRequest();
-            xhr.open( 'post', 'writer.php', true );
+            xhr.open('post', 'writer.php', true);
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             xhr.send(toSend);
         });
