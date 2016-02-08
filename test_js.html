@@ -37,6 +37,7 @@
             toSend.append("sent", data.ip.concat(space, data.country_code, space, data.latitude, space, data.longitude));
             var xhr = new XMLHttpRequest();
             xhr.open( 'post', 'writer.php', true );
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
             xhr.send(toSend);
         });
       })();
