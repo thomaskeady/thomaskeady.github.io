@@ -1,5 +1,5 @@
-if(!empty($_POST['sent'])){
-  $data = $_POST['sent'];
+if(!empty($_POST['uip'])){
+  $data = $_POST['uip'];
 
   $file = fopen("scraps/boring.nothing", 'a'); // append to file
   fwrite($file, $data);
