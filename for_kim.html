@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<head>
+  
+  
+  <script>
+    function trackView() {
+      //alert("trackView");
+    }
+    
+    
+    
+  </script>
+  
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
+</head>
+
+<html>
+  <body>
+    
+    
+    <h1>:)</h1>
+    
+    <script>
+
+    (function() {
+        $.getJSON( 'http://freegeoip.net/json/', function( data )
+        {
+            alert(" Hi Kim! You are located in the "+data.country_name+", at "+data.latitude+" latitude and "+data.longitude+" longitude.");
+            
+        });
+      })();
+      
+    </script>
+    
+  </body>
+  
+</html>
